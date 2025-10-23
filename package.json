@@ -1,0 +1,23 @@
+{
+  "name": "threat-intel-pipeline",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vite build && gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.453.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.0.0",
+    "tailwindcss": "^3.4.1",
+    "vite": "^4.3.9"
+  }
+}
