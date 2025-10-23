@@ -1,3 +1,4 @@
+console.log("App loaded");
 const { useState } = React;
 const { Shield, AlertTriangle, Brain, BarChart3, FileText, Zap, RefreshCw, TrendingUp, Cpu, Network } = lucide;
 
@@ -657,7 +658,7 @@ script.onload = () => {
   window.lucide = lucide;
   
   // Render the app
-  const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(React.createElement(ThreatIntelPipeline));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<ThreatIntelPipeline />);
 };
 document.head.appendChild(script);
